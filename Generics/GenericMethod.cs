@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Generics
 {
-    internal class GenericMax
+    internal class GenericMethod
     {
         public class GenericMaximum<T> where T : IComparable //Where T data type should inherit IComparable interface
         {
@@ -47,4 +47,5 @@ namespace Generics
                 Console.WriteLine("Maximum value is " + max);
             }
         }
+    }
 }
