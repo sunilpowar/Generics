@@ -67,7 +67,7 @@ namespace Generics
                 return thirdString;
             }
 
-            throw new Exception("firstNumber,secondNumber and thirdNumber are same");
+            throw new Exception("firstString,secondString and thirdString are same");
         }
 
         public static string FindMaximum<T>(T FirstPlace, T SecondPlace, T ThirdPlace) where T : IComparable<T>
