@@ -17,6 +17,7 @@ namespace Generics
             Console.WriteLine(output);
             double doubleoutput = MaximumNumberCheck.MaximumFloatNumber(111.2, 22.45, 78.56);
             Console.WriteLine(doubleoutput);
+            
             Console.WriteLine("Finding max Number :");
             string maximum1 = MaximumNumberCheck.FindMaximum<int>(29, 76, 94);
             string maximum2 = MaximumNumberCheck.FindMaximum<float>(231.2f, 112.45f, 32.56f);
